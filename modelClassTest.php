@@ -5,7 +5,7 @@
     class modelClassTest extends TestCase
     {
         public function test_model():void
-        {
+        { 
             $model= new model();
             $this->assertObject($model,"valid object");
         }

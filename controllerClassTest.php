@@ -21,7 +21,7 @@
         {
             $controlller = new controller;
             $m = new view;
-            $view = $v; 
+            $controller = $v; 
             $this->assertNull($v,"this vairiable is indeed set to null");
             
         }

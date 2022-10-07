@@ -5,14 +5,14 @@ require __DIR__ . "/../classes/sessionClass.php";
     {
         public function test_sessionclass_object(): void 
         {
-            $session = new sessionclass();
+            $session = new sessioncClass();
             
             $this->assertObject($session,"this is a valid object");
         }
 
         public function test_create() : void
         {
-            $session = new session;
+            $session = new sessionClass();
             $this->assertContains($session,"this is a valid variable");
         }
 
